@@ -38,12 +38,8 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in San
-              Francisco building useful things.
+              Thoughts, Ideas, Theories, Ramblings and Rants by <a href={`https://twitter.com/${social.twitter}`}><strong>{author}</strong></a>, a Dev based in Bangalore with a penchant for music, beer and philosophy.
               {` `}
-              <a href={`https://twitter.com/${social.twitter}`}>
-                You should follow him on Twitter
-              </a>
             </p>
           </div>
         )

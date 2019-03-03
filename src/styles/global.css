@@ -1,0 +1,29 @@
+a {
+  color: #c0392b;
+}
+
+.tooltip-master {
+  position: relative;
+  color: #922525;
+}
+
+.tooltip-master:hover .tooltip-slave {
+  display: initial;
+}
+
+.tooltip-slave {
+  display: none;
+  font-size: 10px;
+  font-weight: lighter;
+  border: 1px solid #922525;
+  position: absolute;
+  line-height: 20px;
+  width: 300px;
+  top:0;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+img[src*="#full-width"] {
+  width: 100%;
+}

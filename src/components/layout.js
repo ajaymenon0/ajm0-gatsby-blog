@@ -22,11 +22,12 @@ class Layout extends React.Component {
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `inherit`,
             }}
+            className="tooltip-master"
             to={`/`}
           >
             {title}
+            <span className="tooltip-slave">(in Kantian philosophy) a thing as it is in itself, as distinct from a thing as it is knowable by the senses through phenomenal attributes. Lol so pretentious.</span>
           </Link>
         </h1>
       )
