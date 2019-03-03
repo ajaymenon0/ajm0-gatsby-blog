@@ -1,6 +1,7 @@
 ---
 title: There and back again...
 date: "2019-03-03T12:31:05.083Z"
+description: Dinosaras is back on the blogging scene! Aww yass queen!!
 ---
 
 It has been over a couple of years since I've maintained a personal blog as such.
